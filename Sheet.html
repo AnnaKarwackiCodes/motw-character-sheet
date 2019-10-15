@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MofW Character Sheet</title>
+        <meta name="description" content="This is a for an easier way to keep your Character's information organized">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <img src="media/motw_logo.png" alt="Monster of the Week Logo" id="logo">
+        <label for="name">Character Name: </label><input type="text" id="name" name="Character Name" value="Character Name" onfocus="this.value=''">
+        <select>
+                <option value="default">Playbook</option>
+                <option value="chosen">The Chosen</option>
+                <option value="crooked">The Crooked</option>
+                <option value="divine">The Divine</option>
+                <option value="expert">The Expert</option> 
+                <option value="flake">The Flake</option> 
+                <option value="initiate">The Initiate</option> 
+                <option value="monstrous">The Monstrous</option> 
+                <option value="mundane">The Mundane</option> 
+                <option value="professional">The Professional</option> 
+                <option value="spell-slinger">The Spell-Slinger</option> 
+                <option value="spooky">The Spooky</option> 
+                <option value="wronged">The Wronged</option> 
+
+
+        </select>
+        <div id="statBlock">
+                <div id="charmStat">
+                    <h3 id="Charm">0</h3>
+                    <label>Charm </label><br>
+                    <i>Manipulate Someone</i>
+                </div>
+                <div id="coolStat">
+                    <h3 id="Cool">0</h3>
+                    <label>Cool </label><br>
+                    <i>Act Under Pressure.<br> Help out</i>
+                </div>
+                <div id="sharpStat">
+                    <h3 id="Sharp">0</h3>
+                    <label>Sharp </label><br>
+                    <i>Investigate a Mystery.<br> Read a Bad Situation</i>
+                </div>
+                <div id="toughStat">
+                    <h3 id="Tough">0</h3>
+                    <label>Tough </label><br>
+                    <i>Kick Some ass.<br> Protect Someone</i>
+                </div>
+                <div id="weirdStat">  
+                    <h3 id="Weird">0</h3>              
+                    <label>Weird </label><br>
+                    <i>Use Magic</i>
+                </div>
+        </div>
+        <div id="LuckTracker">
+                <label>Okay </label>
+                <input type="checkbox" name="luck1" value="luck1">
+                <input type="checkbox" name="luck2" value="luck2">
+                <input type="checkbox" name="luck3" value="luck3">
+                <input type="checkbox" name="luck4" value="luck4">
+                <input type="checkbox" name="luck5" value="luck5">
+                <input type="checkbox" name="luck6" value="luck6">
+                <input type="checkbox" name="luck7" value="luck7">
+                <label>Doomed </label>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+#logo{
+    display:block;
+    width: 200px;
+    padding-bottom: 30px;
+}
+#statBlock{
+    width:100%;
+    margin: auto;
+}
+#charmStat, #coolStat, #sharpStat, #toughStat, #weirdStat{
+    width: 16%;  
+    float: left;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+}
+#LuckTracker{
+    display:block;
+}
